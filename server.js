@@ -25,7 +25,7 @@ app.set('views', './views');
 app.engine('jsx', jsxViewEngine());
 
 //CSS Import 
-// serve all the files in the public folder 
+// serve  the static file all the files with in the public folder 
 
 app.use(express.static('public'));
 
